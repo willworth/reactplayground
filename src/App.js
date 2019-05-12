@@ -1,11 +1,14 @@
-import React from 'react';
-import AppStyles from './App.module.css';
-import Intro from './components/intro';
+import React from "react";
+import AppStyles from "./App.module.css";
+import Header from "./components/header";
+import Main from "./components/main";
+import Intro from "./components/intro";
 
 function App() {
   return (
     <div className={AppStyles.App}>
-      <Intro/>
+      <Header />
+      <Main />
     </div>
   );
 }
