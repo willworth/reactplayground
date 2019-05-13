@@ -10,12 +10,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+  background: black;
 }
 
 .App {
   text-align: center;
-  background: darkslategray;
-  background: black;
+  background: #007ea7;
   color: wheat;
   min-height: 100vh;
   border: groove wheat 0.5rem;
